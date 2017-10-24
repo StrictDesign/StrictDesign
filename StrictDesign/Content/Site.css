@@ -1,0 +1,76 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#center {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+/* Override default CSS START */
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+    .navbar-inverse .navbar-nav li a {
+        color: #ccc;
+    }
+
+        .navbar-inverse .navbar-nav li a:hover {
+            color: #9d9d9d;
+        }
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.body-content {
+    padding-left: 0;
+    padding-right: 0;
+}
+/* Override default CSS END */
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
