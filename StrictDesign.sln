@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrictDesign", "StrictDesign\StrictDesign.csproj", "{6B0DD913-EBE9-4C1D-85CE-B75098290859}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsApp", "ProductsApp\ProductsApp.csproj", "{933EAA4A-9E4E-4382-907F-486E4A71FCD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6B0DD913-EBE9-4C1D-85CE-B75098290859}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B0DD913-EBE9-4C1D-85CE-B75098290859}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B0DD913-EBE9-4C1D-85CE-B75098290859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{933EAA4A-9E4E-4382-907F-486E4A71FCD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933EAA4A-9E4E-4382-907F-486E4A71FCD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933EAA4A-9E4E-4382-907F-486E4A71FCD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933EAA4A-9E4E-4382-907F-486E4A71FCD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

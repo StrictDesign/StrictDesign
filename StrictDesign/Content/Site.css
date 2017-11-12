@@ -42,6 +42,14 @@
     padding-left: 0;
     padding-right: 0;
 }
+
+button.navbar-toggle {
+    margin-right: 20px;
+}
+
+.container .navbar-header {
+    margin-right: 0px;
+}
 /* Override default CSS END */
 /* Set width on the form input elements since they're 100% wide by default */
 input,
