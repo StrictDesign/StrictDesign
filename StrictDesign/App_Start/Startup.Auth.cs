@@ -9,6 +9,7 @@ using Microsoft.Owin.Security.OpenIdConnect;
 using System.Configuration;
 using System.Globalization;
 using System.Threading.Tasks;
+using System.IdentityModel.Tokens;
 
 namespace StrictDesign
 {
@@ -49,6 +50,11 @@ namespace StrictDesign
                             context.Response.Redirect("/Error?message=" + context.Exception.Message);
                             return Task.FromResult(0);
                         }
+                    },
+
+                    TokenValidationParameters = new TokenValidationParameters
+                    {
+                        NameClaimType = "name"
                     }
                 });
         }
